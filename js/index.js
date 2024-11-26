@@ -1,3 +1,5 @@
+Html.RenderPartial("~/Views/Shared/Dialog.cshtml");
+
 $("#modal-jquery-simple-button").click(function () {
     Roblox.Dialog.open({
         titleText: "Error",
